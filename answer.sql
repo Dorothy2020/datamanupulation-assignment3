@@ -19,3 +19,7 @@ INSERT INTO student (id, fullName, age) VALUES
 UPDATE student 
 SET age = 20 
 WHERE id = 2;
+
+
+-- Question 4: checking the updated record
+SELECT * FROM student;
